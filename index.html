@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>кто прочитал тот лох</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('media/4.png'); 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            color: #fff; 
+            padding: 20px;
+        }
+        h1 {
+            color: #000000;
+            font-size: 4.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        }
+        .photos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .photos img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+        }
+        .message {
+            margin-top: 30px;
+            font-size: 1.5em;
+            line-height: 1.6;
+            background-color: rgba(255, 0, 0, 0.6); 
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 600px;
+        }
+        .message p {
+            margin: 10px 0;
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            .photos img {
+                width: 100px; 
+            }
+            .message {
+                font-size: 0.9em; 
+                padding: 10px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy бездей йоу</h1>
+
+    <div class="photos">
+        <img src="media/1.png" alt="Фото 1">
+        <img src="media/2.png" alt="Фото 2">
+        <img src="media/3.png" alt="Фото 3">
+    </div>
+
+    <div class="message">
+        <p>братишка, поздравляю тебя с днем рождения!</p>
+        <p>Ты, конечно, стареешь, но выглядишь все так же молодо, как будто тебе всего 30</p>
+        <p>Желаю тебе здоровья, чтобы ты мог продолжать терпеть нас, своих друзей, и чтобы твои волосы на голове держались дольше, чем твои шутки.</p>
+        <p>С днем рождения, старичок! Не забудь, что ты теперь на год ближе к пенсии. 😉</p>
+    </div>
+</body>
+</html>
